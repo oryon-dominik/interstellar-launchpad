@@ -1,5 +1,7 @@
 """The launch skips what is there, stops at the first failure, and keeps asking until a profile is named."""
 
+import pytest
+
 from launchpad import cli, plan
 
 FIRST = plan.Step("first", ("first",), ("probe-first",))
@@ -50,3 +52,10 @@ def test_the_customer_question_takes_name_and_organisation_and_repeats_on_empty_
 def test_the_customer_question_takes_an_empty_organisation_as_none():
     answers = iter(["example", ""])
     assert cli.ask_customer(ask=lambda prompt: next(answers)) == plan.Customer("example", None)
+
+
+def test_an_elevated_shell_is_refused_before_anything_is_asked(monkeypatch, capsys):
+    monkeypatch.setattr(cli.shell, "is_administrator", lambda: True)
+    monkeypatch.setattr("builtins.input", lambda prompt: pytest.fail(f"asked {prompt!r}"))
+    assert cli.main(["civilian"]) == 1
+    assert "not as Administrator" in capsys.readouterr().out
