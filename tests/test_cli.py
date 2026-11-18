@@ -1,4 +1,4 @@
-"""The launch skips what is there, stops at the first failure, and keeps asking until a profile is named."""
+"""The launch refuses an elevated shell, skips what is there, stops at the first failure, asks until answered."""
 
 import pytest
 
