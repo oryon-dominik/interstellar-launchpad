@@ -27,7 +27,7 @@ open-channels = "chat with people"
 take-remote-control = "remote control of this machine from elsewhere"
 ferry-files = "archives, file transfer, clipboard and storage media"
 paint-glyphs = "fonts"
-take-shore-leave = "fun on the command line"
+take-shore-leave = "games and fun, on request"
 
 # A machine in a customer's network: nothing private, no offensive tools, no remote control.
 [profiles.customer]
