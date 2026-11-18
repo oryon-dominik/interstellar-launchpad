@@ -1,0 +1,129 @@
+{
+    "description": "Python tools installed and managed via uv tool install or run with uvx",
+    "tools": [
+        {
+            "tool": "podman-compose",
+            "description": "Compose provider for `podman compose` — reads compose.yaml and drives the Podman CLI directly (daemonless, rootless-native). uv tool install puts a `podman-compose` executable on PATH, which `podman compose` / `just containers` resolve as their provider.",
+            "command": "podman-compose",
+            "category": "deployment",
+            "tutorial": "build",
+            "urls": [
+                "https://github.com/containers/podman-compose"
+            ],
+            "group": "load-containers"
+        },
+        {
+            "tool": "ruff",
+            "description": "An extremely fast Python linter and code formatter, written in Rust - replaces flake8, black, isort and more.",
+            "command": "ruff",
+            "category": "development",
+            "tutorial": "editor",
+            "urls": [
+                "https://github.com/astral-sh/ruff"
+            ],
+            "group": "fuel-python"
+        },
+        {
+            "tool": "ty",
+            "description": "An extremely fast Python type checker, written in Rust - from the makers of ruff and uv.",
+            "command": "ty",
+            "category": "development",
+            "tutorial": "editor",
+            "urls": [
+                "https://github.com/astral-sh/ty"
+            ],
+            "group": "fuel-python"
+        },
+        {
+            "tool": "copier",
+            "description": "A library and CLI app for rendering project templates with Jinja2.",
+            "command": "copier",
+            "category": "development",
+            "tutorial": "build",
+            "urls": [
+                "https://github.com/copier-org/copier"
+            ],
+            "group": "fuel-python"
+        },
+        {
+            "tool": "playwright",
+            "description": "Browser automation library for end-to-end testing and web scraping - supports Chromium, Firefox, and WebKit.",
+            "command": "playwright",
+            "category": "development",
+            "tutorial": "build",
+            "urls": [
+                "https://github.com/microsoft/playwright-python"
+            ],
+            "group": "write-code"
+        },
+        {
+            "tool": "rembg[cpu,cli]",
+            "description": "AI-powered background removal for images — uses U2-Net models for clean portrait freistellung. The pymatting floor is load-bearing: rembg also accepts pymatting 1.1.14, which drags in a numba that refuses to build on any Python from 3.10 up.",
+            "command": "rembg",
+            "category": "media",
+            "tutorial": "media",
+            "extras": [
+                "pymatting>=1.1.15"
+            ],
+            "urls": [
+                "https://github.com/danielgatis/rembg"
+            ],
+            "group": "cut-transmissions"
+        },
+        {
+            "tool": "git-fame",
+            "description": "Pretty-print git repository contributor statistics — commits, lines of code and file distribution per author. Drives the `git fame` alias.",
+            "command": "git-fame",
+            "category": "cli",
+            "tutorial": "git",
+            "urls": [
+                "https://github.com/casperdcl/git-fame"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "tool": "git-filter-repo",
+            "description": "Rewrite git history — remove files, redact secrets, extract subdirectories. The sanctioned successor to filter-branch; git picks it up as `git filter-repo` from the PATH.",
+            "command": "git-filter-repo",
+            "category": "cli",
+            "tutorial": "git",
+            "urls": [
+                "https://github.com/newren/git-filter-repo"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "tool": "jupyterlab",
+            "description": "Web-based interactive development environment for notebooks, code and data — the lab UI of Project Jupyter.",
+            "command": "jupyter-lab",
+            "category": "development",
+            "tutorial": "build",
+            "urls": [
+                "https://github.com/jupyterlab/jupyterlab"
+            ],
+            "group": "fuel-python"
+        },
+        {
+            "tool": "llm",
+            "description": "CLI to talk to language models — prompts, templates and plugins from the shell. Config and plugins live under LLM_USER_PATH.",
+            "command": "llm",
+            "category": "cli",
+            "tutorial": "reference",
+            "urls": [
+                "https://github.com/simonw/llm"
+            ],
+            "group": "brief-the-copilots"
+        },
+        {
+            "tool": "rich-cli",
+            "description": "Rich-CLI provides a command-line interface to render markdown, JSON, CSV and more with syntax highlighting in the terminal.",
+            "command": "rich",
+            "category": "cli",
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/Textualize/rich-cli"
+            ],
+            "group": "fuel-python"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+# Which groups of the manifests each profile installs. Every manifest entry names its group; a
+# group says what the software is for, never who gets it — that is decided here.
+
+[groups]
+keep-the-logbook = "version control: git, its credentials and large files, GitHub, history tools"
+man-the-bridge = "the terminal, the shell and its prompt, multiplexers, command runners"
+scan-the-hold = "find, read and move through files on the command line"
+read-the-gauges = "watch processes, disks, devices and timings"
+write-code = "editors, formatters and the small tools around writing code"
+browse-the-web = "web browsers"
+fuel-python = "Python tools on top of uv"
+fuel-javascript = "bun and the JavaScript tools it carries"
+fuel-rust = "the Rust toolchain and the crates that install further crates"
+fuel-other-languages = "runtimes and toolchains of further languages"
+weld-binaries = "compilers and build systems for native code"
+brief-the-copilots = "coding agents and AI assistants"
+load-containers = "containers and their tooling"
+stow-data = "databases and backups"
+seal-secrets = "encryption, secret handling and leak scanners"
+probe-defenses = "offensive security: scanners, proxies, reverse engineering"
+scan-frequencies = "network diagnostics and remote file transfer"
+run-ground-stations = "servers, tunnels and infrastructure as code"
+print-dossiers = "render and read documents: PDF, HTML, images to print"
+cut-transmissions = "audio, video, images and design"
+keep-notes = "notes"
+open-channels = "chat with people"
+take-remote-control = "remote control of this machine from elsewhere"
+ferry-files = "archives, file transfer, clipboard and storage media"
+paint-glyphs = "fonts"
+take-shore-leave = "fun on the command line"
+
+# A machine in a customer's network: nothing private, no offensive tools, no remote control.
+[profiles.customer]
+groups = [
+    "keep-the-logbook",
+    "man-the-bridge",
+    "scan-the-hold",
+    "write-code",
+    "browse-the-web",
+    "fuel-python",
+    "fuel-javascript",
+    "brief-the-copilots",
+]
+
+# A crew member's workstation: everything a customer's machine gets, plus what the fleet's standing
+# orders take for granted. Offensive tools, remote control and the specialist groups are added on
+# request, never by default.
+[profiles.crew]
+groups = [
+    "keep-the-logbook",
+    "man-the-bridge",
+    "scan-the-hold",
+    "read-the-gauges",
+    "write-code",
+    "browse-the-web",
+    "fuel-python",
+    "fuel-javascript",
+    "fuel-rust",
+    "brief-the-copilots",
+    "load-containers",
+    "stow-data",
+    "seal-secrets",
+    "scan-frequencies",
+    "run-ground-stations",
+    "print-dossiers",
+    "keep-notes",
+    "ferry-files",
+    "paint-glyphs",
+]

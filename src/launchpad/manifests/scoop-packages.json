@@ -1,0 +1,1400 @@
+{
+  "description": "Command line installed packages provided by scoop.sh for windows",
+  "scoops": [
+    {
+      "package": "git",
+      "bucket": "main",
+      "urls": [
+        "https://gitforwindows.org/",
+        "https://git-scm.com/"
+      ],
+      "description": "Version control.",
+      "command": "git",
+      "os": null,
+      "category": "cli",
+      "tutorial": "git",
+      "group": "keep-the-logbook"
+    },
+    {
+      "package": "git-credential-manager",
+      "bucket": "extras",
+      "urls": [
+        "https://github.com/git-ecosystem/git-credential-manager"
+      ],
+      "description": "Version control credential storage with authentication to GitHub and others.",
+      "command": "git-credential-manager",
+      "os": null,
+      "category": "cli",
+      "tutorial": "git",
+      "group": "keep-the-logbook"
+    },
+    {
+      "package": "git-lfs",
+      "bucket": "main",
+      "urls": [
+        "https://git-lfs.com/"
+      ],
+      "description": "Open source git extension for managing large files.",
+      "command": "git lfs install (once)",
+      "os": null,
+      "category": "cli",
+      "tutorial": "git",
+      "group": "keep-the-logbook"
+    },
+    {
+      "package": "gh",
+      "bucket": "main",
+      "urls": [
+        "https://cli.github.com/"
+      ],
+      "description": "GitHub's official command line tool for pull requests, issues, and other GitHub functionality.",
+      "command": "gh",
+      "os": null,
+      "category": "cli",
+      "tutorial": "git",
+      "group": "keep-the-logbook"
+    },
+    {
+      "package": "openhashtab-np",
+      "bucket": "nonportable",
+      "urls": [
+        "https://github.com/namazso/OpenHashTab"
+      ],
+      "description": "Non-portable version of OpenHashTab, a shell extension for file hashing and checksums.",
+      "command": null,
+      "os": "windows",
+      "category": "cli",
+      "tutorial": null,
+      "group": "seal-secrets"
+    },
+    {
+      "package": "gsudo",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/gerardog/gsudo"
+      ],
+      "description": "Sudo for Windows. Shows a UAC popup once window unfortunately.",
+      "command": "sudo",
+      "os": null,
+      "category": "cli",
+      "tutorial": "terminal",
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "openssh",
+      "bucket": "main",
+      "urls": [
+        "https://www.openssh.com/"
+      ],
+      "description": "OpenSSH client via scoop — only the fallback lane of SetupSSH (-official $false); the fleet default is the Windows-built-in client. Deliberately without category so no sync ever shadows System32's ssh with the scoop shim.",
+      "command": "ssh",
+      "os": "windows",
+      "category": null,
+      "tutorial": null,
+      "group": "scan-frequencies"
+    },
+    {
+      "package": "restic",
+      "bucket": "main",
+      "urls": [
+        "https://restic.net/"
+      ],
+      "description": "Fast, secure, and efficient backup program with deduplication, encryption, and data integrity verification features.",
+      "command": null,
+      "os": null,
+      "category": "cli",
+      "tutorial": null,
+      "group": "stow-data"
+    },
+    {
+      "package": "duf",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/muesli/duf"
+      ],
+      "description": "Disk Usage/Free utility with colorful output and advanced features, helping you visualize disk space usage.",
+      "command": "duf",
+      "os": null,
+      "category": "cli",
+      "tutorial": "monitor",
+      "group": "read-the-gauges"
+    },
+    {
+      "package": "windows-terminal",
+      "bucket": "extras",
+      "urls": [
+        "https://github.com/microsoft/terminal"
+      ],
+      "description": "The official terminal application for Windows, providing multiple tabs, customization, and integration with PowerShell, Command Prompt, and Linux.",
+      "command": null,
+      "os": null,
+      "category": "cli",
+      "tutorial": null,
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "pwsh",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/PowerShell/PowerShell"
+      ],
+      "description": "PowerShell 7, the cross-platform shell the Windows Terminal opens.",
+      "command": "pwsh",
+      "os": null,
+      "category": "cli",
+      "tutorial": null,
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "zellij",
+      "bucket": "main",
+      "urls": [
+        "https://zellij.dev/",
+        "https://github.com/zellij-org/zellij"
+      ],
+      "description": "Terminal workspace multiplexer with declarative KDL layouts — panes, tabs, and per-pane commands. Drives the `just deck` orchestration decks.",
+      "command": "zellij",
+      "os": null,
+      "category": "cli",
+      "tutorial": "terminal",
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "starship",
+      "bucket": "main",
+      "urls": [
+        "https://starship.rs/",
+        "https://github.com/starship/starship"
+      ],
+      "description": "Cross-shell prompt.",
+      "command": "starship",
+      "os": null,
+      "category": "cli",
+      "tutorial": "terminal",
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "micro",
+      "bucket": "main",
+      "urls": [
+        "https://micro-editor.github.io/"
+      ],
+      "description": "A modern and intuitive terminal-based text editor with syntax highlighting and numerous plugins for enhanced functionality.",
+      "command": "micro",
+      "os": null,
+      "category": "cli",
+      "tutorial": "editor",
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "3270-NF-Mono",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/rbanffy/3270font"
+      ],
+      "description": "Nerd Font with glyphs from the 3270 font family, enhancing terminal and code editor visibility.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "Cascadia-Code",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/microsoft/cascadia-code/releases"
+      ],
+      "description": "Nerd Font variant of Microsoft's Cascadia Code font, providing additional icons and symbols.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "CascadiaCode-NF",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/microsoft/cascadia-code/releases"
+      ],
+      "description": "Nerd Font variant of Microsoft's Cascadia Code font, providing additional icons and symbols.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "CascadiaCode-NF-Mono",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/microsoft/cascadia-code/releases"
+      ],
+      "description": "Nerd Font variant of Microsoft's Cascadia Code font with mono-spaced characters.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "CascadiaCode-NF-Propo",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/microsoft/cascadia-code/releases"
+      ],
+      "description": "Nerd Font variant of Microsoft's Cascadia Code font with proportional spacing.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "FiraCode",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/tonsky/FiraCode"
+      ],
+      "description": "Nerd Font based on Fira Code font, including programming ligatures.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "FiraCode-NF",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/tonsky/FiraCode"
+      ],
+      "description": "Nerd Font based on Fira Code font with additional icons and symbols.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "FiraCode-NF-Mono",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/tonsky/FiraCode"
+      ],
+      "description": "Nerd Font based on Fira Code font with mono-spaced characters.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "FiraCode-NF-Propo",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://github.com/tonsky/FiraCode"
+      ],
+      "description": "Nerd Font based on Fira Code font with proportional spacing.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "Hack-NF",
+      "bucket": "nerd-fonts",
+      "urls": [
+        "https://sourcefoundry.org/hack/"
+      ],
+      "description": "Nerd Font based on the Hack font, providing enhanced programming symbols and icons.",
+      "command": null,
+      "os": null,
+      "category": "fonts",
+      "tutorial": null,
+      "group": "paint-glyphs"
+    },
+    {
+      "package": "vscode",
+      "bucket": "extras",
+      "urls": [
+        "https://code.visualstudio.com/"
+      ],
+      "description": "Visual Studio Code is a popular, free, and open-source code editor with support for various programming languages and extensions.",
+      "command": "code",
+      "os": null,
+      "category": "development",
+      "tutorial": "editor",
+      "group": "write-code"
+    },
+    {
+      "package": "vim",
+      "bucket": "main",
+      "urls": [
+        "https://www.vim.org/"
+      ],
+      "description": "Vim is a highly configurable, efficient, and extensible text editor, known for its modal editing and scripting capabilities.",
+      "command": "vim",
+      "os": null,
+      "category": "development",
+      "tutorial": "editor",
+      "group": "write-code"
+    },
+    {
+      "package": "neovim",
+      "bucket": "main",
+      "urls": [
+        "https://neovim.io/"
+      ],
+      "description": "Neovim is a modern text editor that extends the capabilities of Vim, providing improved extensibility and performance.",
+      "command": null,
+      "os": null,
+      "category": "development",
+      "tutorial": null,
+      "group": "write-code"
+    },
+    {
+      "package": "7zip",
+      "bucket": "main",
+      "urls": [
+        "https://www.7-zip.org/"
+      ],
+      "description": "7-Zip is a popular open-source file archiver with high compression ratio. It supports various archive formats, including its own 7z format.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "ferry-files"
+    },
+    {
+      "package": "filezilla",
+      "bucket": "extras",
+      "urls": [
+        "https://filezilla-project.org/"
+      ],
+      "description": "FileZilla is a cross-platform FTP, FTPS, and SFTP client with a user-friendly interface and powerful features.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "ferry-files"
+    },
+    {
+      "package": "sumatrapdf",
+      "bucket": "extras",
+      "urls": [
+        "https://www.sumatrapdfreader.org/free-pdf-reader"
+      ],
+      "description": "SumatraPDF is a lightweight and fast PDF reader with minimalistic design and support for various document formats.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "print-dossiers"
+    },
+    {
+      "package": "okular",
+      "bucket": "extras",
+      "urls": [
+        "https://okular.kde.org"
+      ],
+      "description": "Okular is KDE's document viewer — per-monitor DPI aware, continuous scrolling, tabs, annotations, forms and digital signatures, with generators for PDF, DjVu, ePub, Mobi, PostScript and comic books.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "print-dossiers"
+    },
+    {
+      "package": "pdfsam",
+      "bucket": "extras",
+      "urls": [
+        "https://github.com/torakiki/pdfsam"
+      ],
+      "description": "PDFsam (PDF Split and Merge) is a tool for splitting, merging, and rearranging PDF documents with a simple and intuitive interface.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "print-dossiers"
+    },
+    {
+      "package": "simplenote",
+      "bucket": "extras",
+      "urls": [
+        "https://simplenote.com/"
+      ],
+      "description": "Simplenote is a note-taking application with a clean and easy-to-use interface, supporting synchronization across devices.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "keep-notes"
+    },
+    {
+      "package": "obsidian",
+      "bucket": "extras",
+      "urls": [
+        "https://obsidian.md/"
+      ],
+      "description": "Obsidian is a powerful note-taking and knowledge management application with a focus on plain text markdown files and interlinked notes.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "keep-notes"
+    },
+    {
+      "package": "telegram",
+      "bucket": "extras",
+      "urls": [
+        "https://telegram.org/"
+      ],
+      "description": "Telegram is a cloud-based instant messaging app with a focus on speed, security, and privacy. It supports group chats, voice calls, and more.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "open-channels"
+    },
+    {
+      "package": "discord",
+      "bucket": "extras",
+      "urls": [
+        "https://discord.com/"
+      ],
+      "description": "Discord is a communication platform for creating communities, supporting voice, video, and text chats.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "open-channels"
+    },
+    {
+      "package": "geany",
+      "bucket": "extras",
+      "urls": [
+        "https://www.geany.org/"
+      ],
+      "description": "Geany is a lightweight and fast IDE with basic features for various programming languages, suitable for smaller projects.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "write-code"
+    },
+    {
+      "package": "copyq",
+      "bucket": "extras",
+      "urls": [
+        "https://hluk.github.io/CopyQ/"
+      ],
+      "description": "CopyQ is a clipboard manager with advanced features, allowing you to monitor, manipulate, and paste clipboard items.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "ferry-files"
+    },
+    {
+      "package": "mingw",
+      "bucket": "main",
+      "urls": [
+        "https://www.mingw-w64.org/"
+      ],
+      "description": "MinGW-w64 is a development environment for Windows that provides a collection of tools for building native Windows applications with GCC.",
+      "command": null,
+      "os": null,
+      "category": "build",
+      "tutorial": null,
+      "group": "weld-binaries"
+    },
+    {
+      "package": "llvm",
+      "bucket": "main",
+      "urls": [
+        "https://llvm.org/"
+      ],
+      "description": "LLVM compiler infrastructure including clang and libclang, required by Rust crates that use bindgen.",
+      "command": "clang",
+      "os": null,
+      "category": "build",
+      "tutorial": "build",
+      "group": "weld-binaries"
+    },
+    {
+      "package": "haskell",
+      "bucket": "main",
+      "urls": [
+        "https://www.haskell.org/"
+      ],
+      "description": "Haskell is a functional programming language known for its strong type system and expressive syntax, enabling concise and robust code.",
+      "command": null,
+      "os": null,
+      "category": "languages",
+      "tutorial": null,
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "haskell-cabal",
+      "bucket": "main",
+      "urls": [
+        "https://www.haskell.org/cabal/"
+      ],
+      "description": "Cabal is a build tool and package manager for Haskell, simplifying the management and distribution of Haskell packages.",
+      "command": null,
+      "os": null,
+      "category": "languages",
+      "tutorial": null,
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "rustup",
+      "bucket": "main",
+      "urls": [
+        "https://rustup.rs/"
+      ],
+      "description": "Rustup is the recommended toolchain manager for the Rust programming language, providing easy installation and updates.",
+      "command": null,
+      "os": null,
+      "category": "languages",
+      "tutorial": null,
+      "group": "fuel-rust"
+    },
+    {
+      "package": "go",
+      "bucket": "main",
+      "urls": [
+        "https://golang.org/"
+      ],
+      "description": "Go (Golang) is a statically typed, compiled programming language known for its simplicity, efficiency, and strong support for concurrency.",
+      "command": null,
+      "os": null,
+      "category": "languages",
+      "tutorial": null,
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "openjdk",
+      "bucket": "java",
+      "urls": [
+        "https://jdk.java.net/"
+      ],
+      "description": "OpenJDK is an open-source implementation of the Java Platform, providing the Java Development Kit (JDK) for Java development.",
+      "command": null,
+      "os": null,
+      "category": "languages",
+      "tutorial": null,
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "dotnet-sdk",
+      "bucket": "main",
+      "urls": [
+        "https://www.microsoft.com/net/"
+      ],
+      "description": ".NET SDK is a cross-platform framework for building modern, cloud-based, and mobile applications using the C# programming language.",
+      "command": null,
+      "os": null,
+      "category": "languages",
+      "tutorial": null,
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "bun",
+      "bucket": "main",
+      "urls": [
+        "https://bun.com/docs"
+      ],
+      "description": "Bun is the JavaScript runtime, package manager and global binary lane in one binary — it replaces the nvm + npm + corepack + yarn stack. The scoop manifest sets BUN_INSTALL to scoop\\persist\\bun and puts its bin on PATH; global packages come from bun-tools.json beside this manifest.",
+      "command": "bun",
+      "os": null,
+      "category": "languages",
+      "tutorial": "terminal",
+      "group": "fuel-javascript"
+    },
+    {
+      "package": "nasm",
+      "bucket": "main",
+      "urls": [
+        "https://www.nasm.us/"
+      ],
+      "description": "NASM (Netwide Assembler) is an assembler and disassembler for the x86 architecture, widely used for low-level programming.",
+      "command": null,
+      "os": null,
+      "category": "build",
+      "tutorial": null,
+      "group": "weld-binaries"
+    },
+    {
+      "package": "ffmpeg",
+      "bucket": "main",
+      "urls": [
+        "https://www.audacityteam.org/"
+      ],
+      "description": "FFmpeg is a powerful multimedia processing tool that can convert, record, and stream audio and video files in various formats.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "lame",
+      "bucket": "main",
+      "urls": [
+        "https://lame.sourceforge.io/"
+      ],
+      "description": "LAME is an open-source audio encoder for compressing audio files into the MP3 format with high-quality and configurable settings.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "audacity",
+      "bucket": "extras",
+      "urls": [
+        "https://www.audacityteam.org/"
+      ],
+      "description": "Audacity is a free and open-source audio editing software with features for recording, editing, and mixing audio tracks.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "blender",
+      "bucket": "extras",
+      "urls": [
+        "https://www.blender.org/"
+      ],
+      "description": "Blender is a powerful open-source 3D content creation suite, offering modeling, animation, rendering, and more.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "gimp",
+      "bucket": "extras",
+      "urls": [
+        "https://www.gimp.org/"
+      ],
+      "description": "GNU Image Manipulation Program (GIMP) is a free and open-source raster graphics editor used for tasks such as photo retouching, image editing, and image composition.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "irfanview",
+      "bucket": "extras",
+      "urls": [
+        "https://www.irfanview.com/"
+      ],
+      "description": "IrfanView is a fast and compact image viewer and converter that supports a wide array of graphics file formats.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "flameshot",
+      "bucket": "extras",
+      "urls": [
+        "https://flameshot.org/"
+      ],
+      "description": "Flameshot is a screenshot tool with annotation features, allowing users to capture and annotate screenshots easily.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "shotcut",
+      "bucket": "extras",
+      "urls": [
+        "https://www.shotcut.org/"
+      ],
+      "description": "Shotcut is a free, open-source, cross-platform video editing software with a sleek and intuitive interface.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "vlc",
+      "bucket": "extras",
+      "urls": [
+        "https://www.videolan.org/"
+      ],
+      "description": "VLC media player is a highly portable multimedia player that supports various audio and video formats, as well as streaming protocols.",
+      "command": null,
+      "os": null,
+      "category": "media",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "cutter",
+      "bucket": "extras",
+      "urls": [
+        "https://cutter.re/"
+      ],
+      "description": "Cutter is an open-source reverse engineering platform with a focus on malware analysis and binary disassembly.",
+      "command": null,
+      "os": null,
+      "category": "security",
+      "tutorial": null,
+      "group": "probe-defenses"
+    },
+    {
+      "package": "burp-suite-community-np",
+      "bucket": "nonportable",
+      "urls": [
+        "https://portswigger.net/burp/communitydownload"
+      ],
+      "description": "Burp Suite Community Edition is a leading web application security testing tool, designed for security professionals. Also available: nonportable/burp-suite-pro-np",
+      "command": null,
+      "os": null,
+      "category": "security",
+      "tutorial": null,
+      "group": "probe-defenses"
+    },
+    {
+      "package": "gitleaks",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/gitleaks/gitleaks"
+      ],
+      "description": "Detect and prevent hardcoded secrets like passwords, API keys, and tokens in git repos.",
+      "command": "gitleaks",
+      "os": null,
+      "category": "security",
+      "tutorial": "security",
+      "group": "seal-secrets"
+    },
+    {
+      "package": "grype",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/anchore/grype"
+      ],
+      "description": "Vulnerability scanner for bills of materials; reads OpenVEX verdicts natively.",
+      "command": "grype",
+      "os": null,
+      "category": "security",
+      "tutorial": "security",
+      "group": "seal-secrets"
+    },
+    {
+      "package": "yubikey-manager-cli",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/Yubico/yubikey-manager"
+      ],
+      "description": "ykman: inspect and configure YubiKeys; reads model, firmware and enabled applications.",
+      "command": "ykman",
+      "os": null,
+      "category": "security",
+      "tutorial": "security",
+      "group": "seal-secrets"
+    },
+    {
+      "package": "googlechrome",
+      "bucket": "extras",
+      "urls": [
+        "https://www.google.com/chrome/"
+      ],
+      "description": "Google Chrome is a popular web browser known for its speed, security features, and wide range of extensions.",
+      "command": null,
+      "os": null,
+      "category": "web",
+      "tutorial": null,
+      "group": "browse-the-web"
+    },
+    {
+      "package": "firefox-nightly",
+      "bucket": "versions",
+      "urls": [
+        "https://www.mozilla.org/en-US/firefox/nightly/"
+      ],
+      "description": "Nightly is an unstable testing and development platform. By default, Nightly sends data to Mozilla — and sometimes our partners — to help us handle problems and try ideas.",
+      "command": null,
+      "os": null,
+      "category": "web",
+      "tutorial": null,
+      "group": "browse-the-web"
+    },
+    {
+      "package": "gdrive",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/prasmussen/gdrive"
+      ],
+      "description": "GDrive is a command-line utility for interacting with Google Drive, allowing file uploads, downloads, and management from the terminal.",
+      "command": null,
+      "os": null,
+      "category": "web",
+      "tutorial": null,
+      "group": "ferry-files"
+    },
+    {
+      "package": "lazydocker",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/jesseduffield/lazydocker"
+      ],
+      "description": "Terminal UI for both Docker and Docker Compose, providing a visual dashboard for containers, images, volumes, and logs.",
+      "command": "lazydocker",
+      "os": null,
+      "category": "cli",
+      "tutorial": "build",
+      "group": "load-containers"
+    },
+    {
+      "package": "podman",
+      "bucket": "main",
+      "urls": [
+        "https://podman.io/",
+        "https://github.com/containers/"
+      ],
+      "description": "Podman: A tool for managing OCI containers and pods.",
+      "command": null,
+      "os": null,
+      "category": "cli",
+      "tutorial": "build",
+      "group": "load-containers"
+    },
+    {
+      "package": "podman-desktop",
+      "bucket": "extras",
+      "urls": [
+        "https://podman.io/",
+        "https://github.com/containers/"
+      ],
+      "description": "Podman Desktop - A graphical tool for developing on containers and Kubernetes.",
+      "command": null,
+      "os": null,
+      "category": "cli",
+      "tutorial": "build",
+      "group": "load-containers"
+    },
+    {
+      "package": "gtk-sharp",
+      "bucket": "extras",
+      "urls": [
+        "https://www.mono-project.com/docs/gui/gtksharp/",
+        "https://github.com/GtkSharp/GtkSharp"
+      ],
+      "description": ".NET wrapper for Gtk and other related libraries.",
+      "command": null,
+      "os": "windows",
+      "category": "guis",
+      "tutorial": "build",
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "act",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/nektos/act/",
+        "https://nektosact.com/"
+      ],
+      "description": "Run your GitHub Actions locally.",
+      "command": "act",
+      "os": null,
+      "category": "cli",
+      "tutorial": "git",
+      "group": "keep-the-logbook"
+    },
+    {
+      "package": "raspberry-pi-imager",
+      "bucket": "extras",
+      "urls": [
+        "https://www.raspberrypi.com/software/"
+      ],
+      "description": "Raspberry Pi Imager, quick and easy install Raspberry Pi OS and others to microSD cards.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "ferry-files"
+    },
+    {
+      "package": "autohotkey",
+      "bucket": "extras",
+      "urls": [
+        "https://www.autohotkey.com/"
+      ],
+      "description": "Automation scripting language for Windows (used to spawn the terminal with ctrl+^)",
+      "command": null,
+      "os": "windows",
+      "category": "cli",
+      "tutorial": null,
+      "processes": [
+        "AutoHotkeyU64",
+        "AutoHotkey64",
+        "AutoHotkey32",
+        "AutoHotkey"
+      ],
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "caddy",
+      "bucket": "main",
+      "urls": [
+        "https://caddyserver.com/"
+      ],
+      "description": "Web server and reverse proxy with automatic HTTPS; validates Caddyfiles locally via caddy validate.",
+      "command": "caddy",
+      "os": null,
+      "category": "deployment",
+      "tutorial": null,
+      "group": "run-ground-stations"
+    },
+    {
+      "package": "cmake",
+      "bucket": "main",
+      "urls": [
+        "https://cmake.org/"
+      ],
+      "description": "The de-facto standard for building C++ code.",
+      "command": "cmake",
+      "os": null,
+      "category": "build",
+      "tutorial": "build",
+      "group": "weld-binaries"
+    },
+    {
+      "package": "ninja",
+      "bucket": "main",
+      "urls": [
+        "https://ninja-build.org/"
+      ],
+      "description": "Small, fast build system — the generator cmake drives for native source builds.",
+      "command": "ninja",
+      "os": null,
+      "category": "build",
+      "tutorial": "build",
+      "group": "weld-binaries"
+    },
+    {
+      "package": "gcc",
+      "bucket": "main",
+      "urls": [
+        "https://gcc.gnu.org/"
+      ],
+      "description": "GNU Compiler Collection, MinGW-w64 build — the C/C++ toolchain for native source builds.",
+      "command": "gcc",
+      "os": "windows",
+      "category": "build",
+      "tutorial": "build",
+      "group": "weld-binaries"
+    },
+    {
+      "package": "imagemagick",
+      "bucket": "main",
+      "urls": [
+        "https://imagemagick.org/"
+      ],
+      "description": "Edit and manipulating digital images",
+      "command": "magick",
+      "os": null,
+      "category": "cli",
+      "tutorial": "media",
+      "group": "print-dossiers"
+    },
+    {
+      "package": "ghostscript",
+      "bucket": "main",
+      "urls": [
+        "https://www.ghostscript.com/",
+        "https://ghostscript.readthedocs.io/"
+      ],
+      "description": "Ghostscript is an interpreter for the PostScript language and PDF files.",
+      "command": "gs",
+      "os": null,
+      "category": "cli",
+      "tutorial": "media",
+      "group": "print-dossiers"
+    },
+    {
+      "package": "oculante",
+      "bucket": "extras",
+      "urls": [
+        "https://github.com/woelper/oculante"
+      ],
+      "description": "Fast, lean image viewer with broad format support (AVIF, HEIC, EXR, PSD, SVG) - open from the shell with 'oculante <image>'. Scoop, not cargo: libaom's build rejects nasm 3.x (measured 2026-10-24).",
+      "command": "oculante",
+      "os": null,
+      "category": "cli",
+      "tutorial": "media",
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "poppler",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/oschwartz10612/poppler-windows",
+        "https://poppler.freedesktop.org/"
+      ],
+      "description": "Poppler is a PDF rendering library.",
+      "command": null,
+      "os": null,
+      "category": "cli",
+      "tutorial": "data",
+      "group": "print-dossiers"
+    },
+    {
+      "package": "weasyprint",
+      "bucket": "main",
+      "urls": [
+        "https://weasyprint.org/",
+        "https://github.com/Kozea/WeasyPrint"
+      ],
+      "description": "Renders HTML and CSS to PDF — the document layout engine behind PDF generation pipelines.",
+      "command": "weasyprint",
+      "os": null,
+      "category": "cli",
+      "tutorial": "media",
+      "group": "print-dossiers"
+    },
+    {
+      "package": "gettext",
+      "bucket": "main",
+      "urls": [
+        "https://mlocati.github.io/articles/gettext-iconv-windows.html"
+      ],
+      "description": "Gettext translation binaries for Windows.",
+      "command": "gettext",
+      "os": null,
+      "category": "development",
+      "tutorial": "build",
+      "group": "write-code"
+    },
+    {
+      "package": "graphviz",
+      "bucket": "main",
+      "urls": [
+        "https://graphviz.org/",
+        "https://graphviz.readthedocs.io/en/stable/"
+      ],
+      "description": "Graph Visualization Tools.",
+      "command": "graphviz",
+      "os": null,
+      "category": "cli",
+      "tutorial": "media",
+      "group": "print-dossiers"
+    },
+    {
+      "package": "perl",
+      "bucket": "main",
+      "urls": [
+        "https://strawberryperl.com/",
+        "https://www.perl.org/"
+      ],
+      "description": "Perl is a highly capable, feature-rich programming language with over 37 years of development.",
+      "command": "perl",
+      "os": null,
+      "category": "languages",
+      "tutorial": "build",
+      "group": "fuel-other-languages"
+    },
+    {
+      "package": "filetypesman",
+      "bucket": "nirsoft-alternative https://github.com/ScoopInstaller/Nirsoft.git",
+      "urls": [
+        "https://www.nirsoft.net/utils/file_types_manager.html",
+        "https://github.com/ScoopInstaller/Nirsoft.git"
+      ],
+      "description": "File Types Manager for Windows",
+      "command": "filetypesman",
+      "os": "windows",
+      "category": "guis",
+      "tutorial": null,
+      "group": "ferry-files"
+    },
+    {
+      "package": "edit",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/microsoft/edit/"
+      ],
+      "description": "We all edit.",
+      "command": null,
+      "os": "windows",
+      "category": "cli",
+      "tutorial": "editor",
+      "group": "man-the-bridge"
+    },
+    {
+      "package": "upscayl",
+      "bucket": "extras",
+      "urls": [
+        "https://upscayl.org/download",
+        "https://github.com/upscayl/upscayl"
+      ],
+      "description": "AI Image Upscaler",
+      "command": "upscayl",
+      "os": null,
+      "category": "media",
+      "tutorial": "media",
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "claude",
+      "bucket": "extras",
+      "urls": [
+        "https://claude.ai/download"
+      ],
+      "description": "Claude Desktop, Anthropic's GUI app — not the CLI: Claude Code (`claude`) is owned by bun-tools.json.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "brief-the-copilots"
+    },
+    {
+      "package": "figma",
+      "bucket": "extras",
+      "urls": [
+        "https://www.figma.com/"
+      ],
+      "description": "Figma is a collaborative interface design tool for creating, prototyping, and handing off UI designs.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "handy",
+      "bucket": "extras",
+      "urls": [
+        "https://handy.computer/",
+        "https://github.com/cjpais/Handy"
+      ],
+      "description": "Offline speech-to-text using Whisper. Press a hotkey, speak, text appears in any field. Fully local, no cloud.",
+      "command": null,
+      "os": null,
+      "category": "guis",
+      "tutorial": null,
+      "processes": [
+        "handy"
+      ],
+      "group": "brief-the-copilots"
+    },
+    {
+      "package": "fzf",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/junegunn/fzf"
+      ],
+      "description": "General-purpose fuzzy finder for arbitrary input streams. Required by zoxide edit and useful for branch/process pickers.",
+      "command": "fzf",
+      "os": null,
+      "category": "cli",
+      "tutorial": "terminal",
+      "group": "scan-the-hold"
+    },
+    {
+      "package": "exiftool",
+      "bucket": "main",
+      "urls": [
+        "https://exiftool.org/",
+        "https://github.com/exiftool/exiftool"
+      ],
+      "description": "Read, write and edit meta information in image, audio, video and document files.",
+      "command": "exiftool",
+      "os": null,
+      "category": "cli",
+      "tutorial": null,
+      "group": "cut-transmissions"
+    },
+    {
+      "package": "biome",
+      "bucket": "main",
+      "urls": [
+        "https://biomejs.dev/",
+        "https://github.com/biomejs/biome"
+      ],
+      "description": "Fast linter and formatter for JS, TS, CSS, HTML, Vue, Svelte. Replaces ESLint and Prettier.",
+      "command": "biome",
+      "os": null,
+      "category": "development",
+      "tutorial": "build",
+      "group": "write-code"
+    },
+    {
+      "package": "vector",
+      "bucket": "main",
+      "urls": [
+        "https://vector.dev/",
+        "https://github.com/vectordotdev/vector"
+      ],
+      "description": "Log shipper and observability pipeline. Tails files and journald, transforms with VRL, ships JSON over HTTP. Local testing for the fleet logging pipeline (ansible roles/logging).",
+      "command": "vector",
+      "os": null,
+      "category": "cli",
+      "tutorial": null,
+      "group": "run-ground-stations"
+    },
+    {
+      "package": "duckdb",
+      "bucket": "main",
+      "urls": [
+        "https://duckdb.org/",
+        "https://github.com/duckdb/duckdb"
+      ],
+      "description": "In-process analytical SQL database. Query CSV/JSON/Parquet/SQLite directly with SQL, no server, no import.",
+      "command": "duckdb",
+      "os": null,
+      "category": "cli",
+      "tutorial": "data",
+      "group": "stow-data"
+    },
+    {
+      "package": "sops",
+      "bucket": "main",
+      "urls": [
+        "https://github.com/getsops/sops"
+      ],
+      "description": "SOPS: encrypt values in YAML/JSON/env/ini files with age/KMS/PGP; keys stay readable, diffs stay meaningful. Backend for sops-encrypted secrets vaults.",
+      "command": "sops",
+      "os": null,
+      "category": "cli",
+      "tutorial": "security",
+      "group": "seal-secrets"
+    },
+    {
+      "package": "age",
+      "bucket": "extras",
+      "urls": [
+        "https://github.com/FiloSottile/age"
+      ],
+      "description": "age: simple, modern file encryption with small explicit keys (age-keygen). The identity/recipient backend for sops.",
+      "command": "age",
+      "os": null,
+      "category": "cli",
+      "tutorial": "security",
+      "group": "seal-secrets"
+    },
+    {
+      "package": "ntfy",
+      "bucket": "main",
+      "urls": [
+        "https://ntfy.sh",
+        "https://github.com/binwiederhier/ntfy"
+      ],
+      "description": "Push notifications to phone or desktop over plain HTTP (PUT/POST) — the notification channel for long-running and unattended runs.",
+      "command": "ntfy",
+      "os": null,
+      "category": "cli",
+      "tutorial": "network",
+      "group": "run-ground-stations"
+    },
+    {
+      "package": "postgresql",
+      "bucket": "main",
+      "urls": [
+        "https://www.postgresql.org"
+      ],
+      "description": "Object-relational database engine; carries psql, pg_dump and pg_restore. Stations run their database in podman, this is the local client lane.",
+      "command": "psql",
+      "os": null,
+      "category": "cli",
+      "tutorial": "data",
+      "group": "stow-data"
+    },
+    {
+      "package": "sqlite",
+      "bucket": "main",
+      "urls": [
+        "https://www.sqlite.org"
+      ],
+      "description": "Embedded database engine; carries the sqlite3 shell. The backup realm dumps a live SQLite file through `.backup` — copying it byte-wise can catch a writer mid-transaction.",
+      "command": "sqlite3",
+      "os": null,
+      "category": "cli",
+      "tutorial": "data",
+      "group": "stow-data"
+    },
+    {
+      "package": "terraform",
+      "bucket": "main",
+      "urls": [
+        "https://www.terraform.io"
+      ],
+      "description": "Declarative infrastructure as code — plan and apply provider resources from versioned configuration.",
+      "command": "terraform",
+      "os": null,
+      "category": "deployment",
+      "tutorial": null,
+      "group": "run-ground-stations"
+    },
+    {
+      "package": "tailscale",
+      "bucket": "extras",
+      "urls": [
+        "https://tailscale.com/",
+        "https://tailscale.com/kb/1223/funnel"
+      ],
+      "description": "WireGuard mesh VPN; Funnel exposes a local port under a public ts.net address for webhook sessions. Installs a system service — needs an admin shell.",
+      "command": "tailscale",
+      "os": null,
+      "category": "deployment",
+      "tutorial": null,
+      "group": "run-ground-stations"
+    },
+    {
+      "package": "teamviewer",
+      "bucket": "extras",
+      "urls": [
+        "https://www.teamviewer.com"
+      ],
+      "description": "Remote control and desktop sharing — the fallback channel when a celestial cannot reach a machine any other way.",
+      "command": null,
+      "os": "windows",
+      "category": "guis",
+      "tutorial": null,
+      "group": "take-remote-control"
+    },
+    {
+      "package": "dosbox",
+      "bucket": "main",
+      "urls": [
+        "https://www.dosbox.com/"
+      ],
+      "description": "DOS emulator with sound, graphics, mouse and joystick — runs legacy DOS software on modern Windows.",
+      "command": "dosbox",
+      "os": "windows",
+      "category": "guis",
+      "tutorial": null,
+      "group": "take-shore-leave"
+    },
+    {
+      "package": "sd-card-formatter",
+      "bucket": "extras",
+      "urls": [
+        "https://www.sdcard.org/downloads/formatter/"
+      ],
+      "description": "The SD Association's formatter for SD, SDHC and SDXC cards — writes the card layout the specification demands, which the Windows formatter does not.",
+      "command": null,
+      "os": "windows",
+      "category": "guis",
+      "tutorial": null,
+      "group": "ferry-files"
+    }
+  ]
+}

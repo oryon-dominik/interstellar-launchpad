@@ -1,0 +1,82 @@
+{
+    "description": "Global JavaScript CLIs managed via `bun add --global`. Bun replaces the nvm + npm + corepack + yarn stack. Note `bun update` is deliberately never used for these: it has no --global and stays inside the recorded semver range, so it would hold packages back silently.",
+    "packages": [
+        {
+            "package": "@anthropic-ai/claude-code",
+            "description": "Anthropic's CLI for Claude Code",
+            "url": "https://github.com/anthropics/claude-code",
+            "command": "claude",
+            "category": "development",
+            "lifecycle": [
+                "@anthropic-ai/claude-code"
+            ],
+            "group": "brief-the-copilots"
+        },
+        {
+            "package": "@openai/codex",
+            "description": "OpenAI Codex CLI",
+            "url": "https://github.com/openai/codex",
+            "command": "codex",
+            "category": "development",
+            "group": "brief-the-copilots"
+        },
+        {
+            "package": "@google/gemini-cli",
+            "description": "Google Gemini CLI",
+            "url": "https://github.com/google-gemini/gemini-cli",
+            "command": "gemini",
+            "category": "development",
+            "group": "brief-the-copilots"
+        },
+        {
+            "package": "@earendil-works/pi-coding-agent",
+            "description": "pi — minimal terminal coding harness, extensible via TypeScript",
+            "url": "https://pi.dev/docs/latest",
+            "command": "pi",
+            "category": "development",
+            "group": "brief-the-copilots"
+        },
+        {
+            "package": "opencode-ai",
+            "description": "opencode — open-source terminal coding agent; rides the fleet reactor as opencode@dotfiles",
+            "url": "https://opencode.ai/docs/",
+            "command": "opencode",
+            "category": "development",
+            "group": "brief-the-copilots"
+        },
+        {
+            "package": "ccusage",
+            "description": "CLI tool for analyzing Claude Code usage from local JSONL files",
+            "url": "https://github.com/ryoppippi/ccusage",
+            "command": "ccusage",
+            "category": "development",
+            "group": "brief-the-copilots"
+        },
+        {
+            "package": "@tailwindcss/cli",
+            "description": "TailwindCSS 4 compiler — builds the station bundles and the stellar design system",
+            "url": "https://github.com/tailwindlabs/tailwindcss",
+            "command": "tailwindcss",
+            "category": "development",
+            "group": "fuel-javascript"
+        },
+        {
+            "package": "axe-core",
+            "description": "Accessibility engine — the django stations' browser tests inject axe.min.js from bun's global packages and check each page against WCAG 2.2 AA. A library, not a CLI: it ships no command",
+            "url": "https://github.com/dequelabs/axe-core",
+            "category": "development",
+            "group": "fuel-javascript"
+        },
+        {
+            "package": "@mermaid-js/mermaid-cli",
+            "description": "CLI for mermaid - render diagrams from .mmd files to SVG, PNG, or PDF",
+            "url": "https://github.com/mermaid-js/mermaid-cli",
+            "command": "mmdc",
+            "category": "development",
+            "lifecycle": [
+                "puppeteer"
+            ],
+            "group": "fuel-javascript"
+        }
+    ]
+}

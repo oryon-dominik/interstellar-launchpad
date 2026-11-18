@@ -1,0 +1,746 @@
+{
+    "description": "Rust modules for the CLI & GUI provided by cargo",
+    "crates": [
+        {
+            "crate": "cargo-binstall",
+            "description": "Binary installation for cargo crates - speeds up all subsequent installs",
+            "command": "cargo binstall",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "bootstrap": true,
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/cargo-bins/cargo-binstall"
+            ],
+            "group": "fuel-rust"
+        },
+        {
+            "crate": "cargo-cache",
+            "description": "Manage $CARGO_HOME - print and selectively clean the cache the fat crate rebuilds leave behind",
+            "command": "cargo cache",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "bootstrap": true,
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/matthiaskrgr/cargo-cache"
+            ],
+            "group": "fuel-rust"
+        },
+        {
+            "crate": "starship",
+            "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+            "command": null,
+            "category": "cli",
+            "interface": "cli",
+            "os": "posix",
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/starship/starship"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "eza",
+            "description": "Display directories. A modern replacement for ls - exa fork",
+            "command": "eza",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": null,
+            "urls": [
+                "https://github.com/eza-community/eza"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "bat",
+            "description": "A cat(1) clone with wings. Seek or concatenate files, with colors.",
+            "command": "bat",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "explore",
+            "urls": [
+                "https://github.com/sharkdp/bat"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "zoxide",
+            "description": "Zoxide is a faster and smarter way to navigate your filesystem",
+            "command": "z",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "explore",
+            "urls": [
+                "https://github.com/ajeetdsouza/zoxide"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "ripgrep",
+            "description": "Grep on steroids - 'ripgrep' recursively searches directories for a regex pattern",
+            "command": "rg",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "explore",
+            "urls": [
+                "https://github.com/BurntSushi/ripgrep"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "lolcat",
+            "description": "Lolcat implementation written in Rust",
+            "command": "lolcat",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "fun",
+            "urls": [
+                "https://github.com/ur0/lolcat"
+            ],
+            "group": "take-shore-leave"
+        },
+        {
+            "crate": "cfonts",
+            "description": "Big console lettering with colour gradients - the hostname banner of the shell greeting",
+            "command": "cfonts",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "fun",
+            "urls": [
+                "https://github.com/dominikwilkowski/cfonts"
+            ],
+            "prebuilt": {
+                "repository": "oryon-dominik/interstellar-bins",
+                "tag": "{name}-{version}",
+                "asset": "{name}-{version}-{target}.tar.gz",
+                "version": "1.3.0",
+                "sha256": {
+                    "x86_64-unknown-linux-musl": "754ba1336b6c5e45cff78e8befe14742729683f8a0bc824b4fbffe7968b8a15c",
+                    "aarch64-unknown-linux-musl": "9d02f8c08c0ba5e0714e27aa6529dc4cde7549c084d8cf48b6651127aa3c76b9"
+                }
+            },
+            "group": "take-shore-leave"
+        },
+        {
+            "crate": "fd-find",
+            "description": "Find entries in the filesystem. User-friendly alternative to 'find'",
+            "command": "fd",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "explore",
+            "urls": [
+                "https://github.com/sharkdp/fd"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "hexyl",
+            "description": "A command-line hex viewer",
+            "command": "hexyl",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "data",
+            "urls": [
+                "https://github.com/sharkdp/hexyl"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "du-dust",
+            "description": "A more intuitive version of du in rust - instant overview of which directories are using disk",
+            "command": "dust",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/bootandy/dust"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "tealdeer",
+            "description": "Help pages for command-line tools, use this on any command to quickly understand it's usage. Rust implementation of tldr",
+            "command": "tldr",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "reference",
+            "urls": [
+                "https://github.com/dbrgn/tealdeer"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "tokei",
+            "description": "A program that displays statistics about your code.",
+            "command": "tokei",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "git",
+            "urls": [
+                "https://github.com/XAMPPRocky/tokei"
+            ],
+            "group": "write-code"
+        },
+        {
+            "crate": "procs",
+            "description": "Replacement for ps",
+            "command": "procs",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/dalance/procs"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "bottom",
+            "description": "Yet another cross-platform graphical process/system monitor.",
+            "command": "btm",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/ClementTsang/bottom"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "hyperfine",
+            "description": "A command-line benchmarking tool",
+            "command": "hyperfine",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/sharkdp/hyperfine"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "xh",
+            "description": "Friendly and fast tool for sending HTTP requests",
+            "command": "xh",
+            "category": "web",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "network",
+            "urls": [
+                "https://github.com/ducaale/xh"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "broot",
+            "description": "A new way to see and navigate directory trees",
+            "command": "br",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "explore",
+            "urls": [
+                "https://github.com/Canop/broot"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "grex",
+            "description": "Generating regular expressions from user provided test cases",
+            "command": "grex",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "reference",
+            "urls": [
+                "https://github.com/pemistahl/grex"
+            ],
+            "group": "write-code"
+        },
+        {
+            "crate": "bandwhich",
+            "description": "Graphical terminal bandwidth utilization tool",
+            "command": "bandwhich",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/imsnif/bandwhich"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "choose",
+            "description": "A human-friendly and fast alternative to cut and (sometimes) awk: field selection from content",
+            "command": "choose",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "data",
+            "urls": [
+                "https://github.com/theryangeary/choose"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "git-delta",
+            "description": "A viewer for git and diff output",
+            "command": "delta",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "git",
+            "urls": [
+                "https://github.com/dandavison/delta"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "crate": "gping",
+            "description": "Ping, but with a graph",
+            "command": "gping",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/orf/gping"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "sd",
+            "description": "Intuitive find & replace CLI (sed alternative) 's'earch & 'd'isplace.",
+            "command": "sd",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "data",
+            "urls": [
+                "https://github.com/chmln/sd"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "jless",
+            "description": "Fast command-line JSON viewer.",
+            "command": "jless",
+            "category": "cli",
+            "interface": "cli",
+            "os": "posix",
+            "tutorial": "data",
+            "urls": [
+                "https://github.com/PaulJuliusMartinez/jless"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "ouch",
+            "description": "Painless compression and decompression in the terminal.",
+            "command": "ouch",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "data",
+            "urls": [
+                "https://github.com/ouch-org/ouch"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "mcfly",
+            "description": "McFly through your shell history",
+            "command": "<CTRL+R>",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/cantino/mcfly"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "dog",
+            "description": "A command-line DNS client. It's a library, so download the binary from the releases page.",
+            "command": "dog",
+            "category": "web",
+            "interface": "cli",
+            "os": false,
+            "tutorial": "network",
+            "urls": [
+                "https://github.com/ogham/dog"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "ifwifi",
+            "description": "Easier connect to WIFI from the command line. Retired 2026-08-21 in favour of impala; kept disabled so stale detection can still prune it.",
+            "command": "ifwifi",
+            "category": "cli",
+            "interface": "cli",
+            "os": false,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/araujobsd/ifwifi/"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "impala",
+            "description": "TUI for managing wifi through the iwd daemon. Posix only — without iwd it exits with 'Can not access the iwd service address'.",
+            "command": "impala",
+            "category": "cli",
+            "interface": "cli",
+            "os": "posix",
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/pythops/impala"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "zeitfetch",
+            "description": "Instantaneous snapshots of system information.",
+            "command": "zeitfetch",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/nidnogg/zeitfetch"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "onefetch",
+            "description": "Command-line Git information tool.",
+            "command": "onefetch",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "git",
+            "urls": [
+                "https://github.com/o2sh/onefetch"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "crate": "rainfrog",
+            "description": "Database management tui for postgres.",
+            "command": "rainfrog",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/achristmascarl/rainfrog"
+            ],
+            "group": "stow-data"
+        },
+        {
+            "crate": "hwatch",
+            "description": "Modern watch. Records the differences in execution results.",
+            "command": "hwatch",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/blacknon/hwatch"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "havn",
+            "description": "A fast configurable port scanner with reasonable defaults.",
+            "command": "havn",
+            "category": "security",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "security",
+            "urls": [
+                "https://github.com/mrjackwills/havn"
+            ],
+            "group": "probe-defenses"
+        },
+        {
+            "crate": "gitu",
+            "description": "A TUI Git client inspired by Magit.",
+            "command": "gitu",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "git",
+            "urls": [
+                "https://github.com/altsem/gitu"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "crate": "lemmeknow",
+            "description": "The fastest way to identify anything!",
+            "command": "lemmeknow",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "security",
+            "urls": [
+                "https://docs.rs/lemmeknow/latest/lemmeknow"
+            ],
+            "group": "seal-secrets"
+        },
+        {
+            "crate": "ttyper",
+            "description": "Terminal-based typing test.",
+            "command": "ttyper",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "fun",
+            "urls": [
+                "https://github.com/max-niederman/ttyper"
+            ],
+            "group": "take-shore-leave"
+        },
+        {
+            "crate": "cyme",
+            "description": "List system USB buses and devices - modern cross-platform lsusb",
+            "command": "cyme",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/tuna-f1sh/cyme"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "pastel",
+            "description": "Generate, analyze, convert and manipulate colors.",
+            "command": "pastel",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "media",
+            "urls": [
+                "https://github.com/sharkdp/pastel"
+            ],
+            "group": "write-code"
+        },
+        {
+            "crate": "vtracer",
+            "description": "Raster-to-vector image tracer — converts PNG/JPG bitmaps into clean SVG paths. Use to derive SVG glyphs from existing brand PNGs.",
+            "command": "vtracer",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "media",
+            "urls": [
+                "https://github.com/visioncortex/vtracer"
+            ],
+            "group": "cut-transmissions"
+        },
+        {
+            "crate": "pik",
+            "description": "Process Interactive Kill.",
+            "command": "pik",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "monitor",
+            "urls": [
+                "https://github.com/jacek-kurlit/pik"
+            ],
+            "group": "read-the-gauges"
+        },
+        {
+            "crate": "yazi-fm",
+            "description": "Blazing fast async terminal file manager.",
+            "command": "yazi",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "explore",
+            "urls": [
+                "https://yazi-rs.github.io/"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "yazi-cli",
+            "description": "CLI for blazing fast async terminal file manager.",
+            "command": null,
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": null,
+            "urls": [
+                "https://yazi-rs.github.io/"
+            ],
+            "group": "scan-the-hold"
+        },
+        {
+            "crate": "termscp",
+            "description": "File transfer and explorer with support for SCP/SFTP/FTP/S3/SMB.",
+            "command": "termscp",
+            "category": "web",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "network",
+            "urls": [
+                "https://termscp.veeso.dev/"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "git-cliff",
+            "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications",
+            "command": "git-cliff",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "git",
+            "urls": [
+                "https://git-cliff.org/"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "crate": "rustscan",
+            "description": "Fast portscanning with nmap in rust.",
+            "command": "rustscan",
+            "category": "security",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "security",
+            "urls": [
+                "https://github.com/RustScan/RustScan"
+            ],
+            "group": "probe-defenses"
+        },
+        {
+            "crate": "domain-check",
+            "description": "Check domainname availability on CLI using RDAP (with WHOIS fallback).",
+            "command": "domain-check",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": null,
+            "urls": [
+                "https://github.com/saidutt46/domain-check"
+            ],
+            "group": "scan-frequencies"
+        },
+        {
+            "crate": "bp",
+            "description": "Cross-platform clipboard tool.",
+            "command": "bp",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/printfn/bp"
+            ],
+            "group": "ferry-files"
+        },
+        {
+            "crate": "gaffa",
+            "description": "Just Procfile process manager.",
+            "command": "gaffa",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/oryon-dominik/interstellar-gaffa"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "just",
+            "description": "Just a command runner.",
+            "command": "just",
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "terminal",
+            "urls": [
+                "https://github.com/casey/just"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "just-lsp",
+            "description": "A language server for just. Use 'cargo +nightly install just-lsp' to install.",
+            "command": null,
+            "category": "cli",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "build",
+            "urls": [
+                "https://github.com/terror/just-lsp"
+            ],
+            "group": "man-the-bridge"
+        },
+        {
+            "crate": "prek",
+            "description": "Fast, Rust-based drop-in replacement for pre-commit. Reads .pre-commit-config.yaml natively.",
+            "command": "prek",
+            "category": "development",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "git",
+            "urls": [
+                "https://prek.j178.dev/",
+                "https://github.com/j178/prek"
+            ],
+            "group": "keep-the-logbook"
+        },
+        {
+            "crate": "rustcat",
+            "description": "Modern netcat — TCP listener, reverse shells, colored interactive mode.",
+            "command": "rcat",
+            "category": "security",
+            "interface": "cli",
+            "os": null,
+            "tutorial": null,
+            "urls": [
+                "https://github.com/robiot/rustcat"
+            ],
+            "group": "probe-defenses"
+        },
+        {
+            "crate": "rage",
+            "description": "age encryption in Rust — open what capcom seals (rage --decrypt --identity <key>)",
+            "command": "rage",
+            "category": "security",
+            "interface": "cli",
+            "os": null,
+            "tutorial": "security",
+            "urls": [
+                "https://github.com/str4d/rage"
+            ],
+            "group": "seal-secrets"
+        }
+    ]
+}

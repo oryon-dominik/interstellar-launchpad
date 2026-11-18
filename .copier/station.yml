@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 8f922601601db0b3530bfa38f788288c9e72b68a
+_src_path: gh:oryon-dominik/templates
+_version: 2026.11.50
+author_email: oryon@cyberise.de
+author_name: Dominik Geldmacher
+django: false
+github_org: oryon-dominik
+layer: station
+license: mit
+missions: true
+project_description: One public command takes a fresh machine from a bare shell to
+    a working toolchain
+project_name: launchpad
+python_version: '3.14'
+repository_name: interstellar-launchpad
+rookie: false
+standalone: false
+update_handbook: false

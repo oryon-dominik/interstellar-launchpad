@@ -1,0 +1,79 @@
+[project]
+name = "launchpad"
+version = "2026.10.0"
+description = "One public command takes a fresh machine from a bare shell to a working toolchain"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+license = "MIT"
+keywords = ["bootstrap", "scoop", "apt", "windows", "linux"]
+license-files = ["LICENSE"]
+# The wheel names whoever its LICENSE names.
+authors = [{ name = "Dominik Geldmacher", email = "oryon@cyberise.de" }]
+
+[project.scripts]
+launchpad = "launchpad.cli:main"
+
+[project.urls]
+repository = "https://github.com/oryon-dominik/interstellar-launchpad"
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit-update>=0.8.0",
+    "ruff>=0.16.0",
+]
+test = [
+    "pytest>=8.4.2",
+    # The release numberer dates by a named time zone, and Windows ships no zone database.
+    "tzdata>=2025.2",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 119
+# No target-version: ruff reads requires-python above. A second declaration here
+# would be a place for the two to drift apart.
+# Markdown is not in the gate: documentation is prose, and its examples are illustrations.
+# ruff's default include carries *.md (measured 0.16.1).
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+# `extend-select`, not `select`: `select` replaces ruff's defaults, `extend-select`
+# inherits them. What this project holds whatever a ruff release does with its defaults
+# is named below.
+extend-select = [
+    "I", "UP", "B", "C4",
+    # pycodestyle. E2 and E3 are preview-only and would have no effect, so they
+    # are not listed; E1 is stable and was covered by the old `select = ["E", ...]`.
+    "E1",
+    "E401", "E402", "E701", "E702", "E703", "E711", "E712", "E713", "E714",
+    "E721", "E731", "E741", "E742", "E743",
+    # Line length was never a ruff default, and line-length above wants to be held.
+    "E501",
+    # pyflakes wildcard-import family.
+    "F403", "F405", "F406", "F722",
+    # flake8-bandit in full — the defaults carry only part of it.
+    "S",
+    # flake8-datetimez in full — ruff 0.17 dropped seven of its rules from the defaults.
+    "DTZ",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests assert, and migrations are written by makemigrations, never by hand — annotating
+# one only makes the next generated one differ; a library can carry a Django part too.
+# Every other suppression is inline, at the line it covers, with a reason.
+"tests/**" = ["S101"]
+"**/migrations/**" = ["RUF012", "E501"]
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "launchpad"
+module-root = "src"
+
+[tool.ty.rules]
+# Lenient on unresolved imports.
+unresolved-import = "warn"
