@@ -1384,6 +1384,19 @@
       "group": "take-shore-leave"
     },
     {
+      "package": "wowup-cf",
+      "bucket": "games",
+      "urls": [
+        "https://wowup.io/"
+      ],
+      "description": "World of Warcraft addon manager with CurseForge support — installs and updates addons.",
+      "command": null,
+      "os": "windows",
+      "category": "guis",
+      "tutorial": null,
+      "group": "take-shore-leave"
+    },
+    {
       "package": "sd-card-formatter",
       "bucket": "extras",
       "urls": [
