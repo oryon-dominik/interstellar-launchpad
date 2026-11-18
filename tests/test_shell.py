@@ -40,3 +40,11 @@ def test_every_windows_command_sees_what_the_step_before_recorded(monkeypatch):
     monkeypatch.setattr(shell.shutil, "which", lambda command: None)
     assert shell.run(("rustup", "--version")) == shell.NOT_FOUND
     assert adopted == [True]
+
+
+def test_an_execution_policy_inherited_from_the_launching_shell_is_dropped(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.setenv("PATH", os.environ["PATH"])
+    monkeypatch.setenv("PSExecutionPolicyPreference", "Bypass")
+    shell.prepare_environment(home=tmp_path)
+    assert "PSExecutionPolicyPreference" not in os.environ

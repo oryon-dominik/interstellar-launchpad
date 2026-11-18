@@ -31,8 +31,12 @@ def prepare_environment(*, home: Path) -> None:
     PSModulePath goes: launched from PowerShell 7, Windows PowerShell inherits its module paths
     and cannot load its own security module — Get-ExecutionPolicy is then missing (measured 2026-10-19).
     Unset, each PowerShell rebuilds its own default.
+    PSExecutionPolicyPreference goes too: a shell started with -ExecutionPolicy Bypass sets it, every
+    child reads it as its process scope, and Set-ExecutionPolicy for CurrentUser then writes the value
+    but fails with ExecutionPolicyOverride (measured 2026-11-18).
     """
     os.environ.pop("PSModulePath", None)
+    os.environ.pop("PSExecutionPolicyPreference", None)
     # Launched from C:\Windows\System32, the second step's powershell failed with WinError 5;
     # from the home directory it ran (measured 2026-11-10). Every step starts from home.
     os.chdir(home)
