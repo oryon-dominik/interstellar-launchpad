@@ -1,8 +1,8 @@
 # A fresh Windows 11, ready to use
 
 This page takes a new Windows 11 computer from its first setup screen to a working machine:
-Chrome, VLC, Okular, Flameshot, GIMP and a few helpers, installed and kept up to date by
-[Scoop](https://scoop.sh). It takes about half an hour, most of it waiting.
+Chrome, VLC, Okular, Flameshot, GIMP and a few helpers, installed by [Scoop](https://scoop.sh),
+which also updates them later. It takes about half an hour, most of it waiting.
 
 You need the computer, an internet connection, and this page open on a second device — your
 phone is fine.
@@ -12,16 +12,14 @@ phone is fine.
 Windows 11 wants you to sign in with a Microsoft account during setup. You do not have to: a
 local account (name and password on this computer only) works just as well.
 
-Microsoft keeps closing the ways around that screen. Try the routes below in order — each one
-takes a minute. If none works, sign in with a Microsoft account and go on with step 2; the
+Microsoft keeps closing the ways around that screen. Try the routes below in order; A and B take a
+minute each. If none works, sign in with a Microsoft account and go on with step 2; the
 launchpad works the same either way.
-
-**Before you start: do not connect to the internet yet.** Leave the network cable unplugged and
-skip the Wi-Fi screen if it lets you. You connect later, at step 2.
 
 ### Route A — the "Learn more" link
 
-1. Go through setup until it asks you to sign in with a Microsoft account.
+1. Connect to the internet and go through setup until it asks you to sign in with a Microsoft
+   account.
 2. Under *Sign-in options*, look for the small **Learn more** link in the text — not the big
    buttons.
 3. If it offers to create a local account, enter a name and a password. Done — go to step 2.
@@ -37,13 +35,14 @@ skip the Wi-Fi screen if it lets you. You connect later, at step 2.
    ```
 
    It answers *The operation completed successfully.*
-3. Then type this and press Enter — the computer restarts and setup begins again:
+3. Unplug the network cable, if there is one. Then type this and press Enter — the computer
+   restarts and setup begins again:
 
    ```bat
    shutdown /r /t 0
    ```
 
-4. When setup asks for a network, choose **I don't have internet**, then
+4. When setup asks for a network, do not pick a Wi-Fi. Choose **I don't have internet**, then
    **Continue with limited setup**. Enter a name and a password. Done — go to step 2.
 
 If *I don't have internet* does not show up, this route is closed on your Windows: go on with
@@ -51,7 +50,7 @@ route C.
 
 ### Route C — a new installation stick
 
-This one always works, but it installs Windows again from scratch. You need a second computer
+The most reliable route, but it installs Windows again from scratch. You need a second computer
 and a USB stick of at least 8 GB; everything on the stick is erased.
 
 1. On the second computer, download the Windows 11 disk image (ISO) from

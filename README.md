@@ -7,7 +7,6 @@ One public command takes a fresh machine from a bare shell to a working toolchai
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://docs.astral.sh/uv/)
 [![python](https://img.shields.io/badge/Python-3.14+-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/oryon-dominik/interstellar-launchpad/blob/trunk/LICENSE)
-[![PyPI](https://img.shields.io/pypi/v/cyberise-launchpad)](https://pypi.org/project/cyberise-launchpad/)
 
 A launchpad is where a rocket stands before lift-off. This one sends a machine off with a
 working toolchain.
