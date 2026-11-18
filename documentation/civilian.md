@@ -16,6 +16,9 @@ Microsoft keeps closing the ways around that screen. Try the routes below in ord
 minute each. If none works, sign in with a Microsoft account and go on with step 2; the
 launchpad works the same either way.
 
+Whichever route you take, choose a short account name without umlauts or spaces — `hans`, not
+`Hans-Jürgen`. Windows names your home folder after it, and some tools stumble over anything else.
+
 ### Route A — the "Learn more" link
 
 1. Connect to the internet and go through setup until it asks you to sign in with a Microsoft
